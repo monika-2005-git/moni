@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services - Talent Stage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="services-section">
+    <h2>SERVICES</h2>
+    <p class="slogan">Show Your Spark — The Stage Is Yours!</p>
+
+    <div class="services-container">
+      <div class="service-buttons">
+        <button>MIMICRY</button>
+        <button>DANCE BATTLE</button>
+        <button>OTHER TALENTS</button>
+        <button>STD.COMEDY</button>
+        <button>SPEECH</button>
+        <button>SINGING</button>
+      </div>
+
+      <div class="service-video" id="serviceVideo">
+        <video controls autoplay muted loop>
+          <source src="https://videos.pexels.com/video-files/8554269/8554269-uhd_2560_1440_25fps.mp4" type="video/mp4" />
+          Your browser does not support video playback.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
